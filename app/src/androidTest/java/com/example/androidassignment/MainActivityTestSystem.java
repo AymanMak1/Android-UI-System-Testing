@@ -42,7 +42,7 @@ public class MainActivityTestSystem {
         stringInput.perform(replaceText("Ayman"), closeSoftKeyboard());
         indexInput.perform(replaceText("a"), closeSoftKeyboard());
         ctaBtn.perform(click());
-        output.check(matches(withText("The given index is not a number")));
+        output.check(matches(withText("The given index is not a number.")));
 
         indexInput.perform(replaceText("8"), closeSoftKeyboard());
         ctaBtn.perform(click());
