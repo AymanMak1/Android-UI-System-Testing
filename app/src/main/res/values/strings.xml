@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">androidassignment</string>
+    <string name="output">The suffix is </string>
+    <string name="nanerror">The given index is not a number.</string>
+    <string name="secondparamGreater">The index parameter has to be less than the length of the string.</string>
+</resources>
